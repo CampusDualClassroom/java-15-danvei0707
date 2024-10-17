@@ -10,12 +10,6 @@ public abstract class Merchandise {
 	protected String shelf;
 	protected int quantity;
 
-	public Merchandise(String name, String uniqueId, String responsibleId) {
-		this.name = name;
-		this.uniqueId = uniqueId;
-		this.responsibleId = responsibleId;
-	}
-
 	public Merchandise(String name, String uniqueId, String responsibleId, int zone, String area, String shelf,
 			int quantity) {
 		this.name = name;
@@ -95,4 +89,6 @@ public abstract class Merchandise {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
+
+
 }
